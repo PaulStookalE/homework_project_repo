@@ -21,4 +21,4 @@ def create_db():
     Base.metadata.create_all(db)
 
 def drop_db():
-    Base.metadata_drop_all(db)
+    Base.metadata.drop_all(db)
